@@ -5,28 +5,70 @@ on:
   workflow_dispatch:
   repository_dispatch:
     types: [sync]
+
 jobs:
   run:
     name: Sync GitHub to Gitee
     runs-on: ubuntu-latest
     steps:
 
-      - name: Get current repository name
-        id: info
-        uses: actions/github-script@v3.1
-        with:
-          github-token: ${{secrets.GH_TOKEN}}
-          result-encoding: string
-          script: |
-            return context.repo.repo;
+      - name: Clone the GitHub repo (latest commit from default branch)
+        run: |
+          git clone --depth 1 https://github.com/${{ github.repository }} repo
+          cd repo
+          git fetch --unshallow
+      - name: Remove ku9/icon.zip
+        run: |
+          cd repo
+          rm -f ku9/icon.zip
+      - name: Set up SSH for Gitee
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.GITEE_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan gitee.com >> ~/.ssh/known_hosts
+      - name: Set Git identity for Gitee using secrets
+        run: |
+          git config --global user.name "${{ secrets.GITEE_USER_NAME }}"
+          git config --global user.email "${{ secrets.GITEE_USER_EMAIL }}"
+      - name: Commit and push changes to Gitee
+        run: |
+          cd repo
+          now_time=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
+          git add .
+          git commit -m "更新时间：$now_time"
+          git remote set-url origin git@gitee.com:taksssss/tv.git
+          git push --force origin main
 
-      - name: Mirror the GitHub repos to Gitee
-        uses: Yikun/hub-mirror-action@master
-        with:
-          src: github/taksssss
-          dst: gitee/taksssss
-          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
-          dst_token: ${{ secrets.GITEE_TOKEN }}
-          static_list: '${{ steps.info.outputs.result }}'
-          account_type: user
-          force_update: true
+# name: sync2gitee
+
+# on:
+#   push:
+#   workflow_dispatch:
+#   repository_dispatch:
+#     types: [sync]
+# jobs:
+#   run:
+#     name: Sync GitHub to Gitee
+#     runs-on: ubuntu-latest
+#     steps:
+
+#       - name: Get current repository name
+#         id: info
+#         uses: actions/github-script@v3.1
+#         with:
+#           github-token: ${{secrets.GH_TOKEN}}
+#           result-encoding: string
+#           script: |
+#             return context.repo.repo;
+
+#       - name: Mirror the GitHub repos to Gitee
+#         uses: Yikun/hub-mirror-action@master
+#         with:
+#           src: github/taksssss
+#           dst: gitee/taksssss
+#           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+#           dst_token: ${{ secrets.GITEE_TOKEN }}
+#           static_list: '${{ steps.info.outputs.result }}'
+#           account_type: user
+#           force_update: true
