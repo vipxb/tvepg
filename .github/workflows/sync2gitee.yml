@@ -17,10 +17,11 @@ jobs:
           git clone --depth 1 https://github.com/${{ github.repository }} repo
           cd repo
           git fetch --unshallow
-      - name: Remove ku9/icon.zip
+      - name: Remove files
         run: |
           cd repo
           rm -f ku9/icon.zip
+          rf -rf icon/
       - name: Set up SSH for Gitee
         run: |
           mkdir -p ~/.ssh
