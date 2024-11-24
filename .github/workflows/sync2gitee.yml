@@ -17,26 +17,24 @@ jobs:
           git clone --depth 1 https://github.com/${{ github.repository }} repo
           cd repo
           git fetch --unshallow
-      - name: Remove files
-        run: |
-          cd repo
-          rm -f ku9/icon.zip
-          rm -rf icon/
+
       - name: Set up SSH for Gitee
         run: |
           mkdir -p ~/.ssh
           echo "${{ secrets.GITEE_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan gitee.com >> ~/.ssh/known_hosts
+
       - name: Set Git identity for Gitee using secrets
         run: |
           git config --global user.name "${{ secrets.GITEE_USER_NAME }}"
           git config --global user.email "${{ secrets.GITEE_USER_EMAIL }}"
+
       - name: Commit and push changes to Gitee
         run: |
           cd repo
           now_time=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
-          git add .
+          git add ./epg ./README.md
           git commit -m "更新时间：$now_time"
           git remote set-url origin git@gitee.com:taksssss/tv.git
           git push --force origin main
