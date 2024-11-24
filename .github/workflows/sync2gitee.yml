@@ -21,7 +21,7 @@ jobs:
         run: |
           cd repo
           rm -f ku9/icon.zip
-          rf -rf icon/
+          rm -rf icon/
       - name: Set up SSH for Gitee
         run: |
           mkdir -p ~/.ssh
