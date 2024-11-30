@@ -433,52 +433,52 @@
     {
       "epgid": "CCTV10",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV10.png",
-      "name": "CCTV10,30.CCTV-10科教-1080P,CCTV-10,CCTV10H,CCTV10HD,CCTV-10科学,CCTV-10科教,CCTV_10科教,CCTV10科教,CCTV-10高清,CCTV科教,CCTV科教.备用,中央10台,中央十台,中央十套,中央电视台10,中央科教,央视-10,科教10台"
+      "name": "CCTV10,30.CCTV-10科教-1080P,CCTV-10,CCTV10H,CCTV10HD,CCTV-10科学,CCTV-10科教,CCTV-10_科教,CCTV_10科教,CCTV10科教,CCTV-10高清,CCTV科教,CCTV科教.备用,中央10台,中央十台,中央十套,中央电视台10,中央科教,央视-10,科教10台"
     },
     {
       "epgid": "CCTV11",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV11.png",
-      "name": "CCTV11,31.CCTV-11戏剧-1080P,CCTV-11,CCTV11H,CCTV-11戏曲,CCTV_11戏曲,CCTV11戏曲,CCTV-11戏曲HD,CCTV-11高清,CCTV戏曲,CCTV戏曲.备用,中央11台,中央十一台,中央戏曲,中央电视台11,央视-11,戏曲11台"
+      "name": "CCTV11,31.CCTV-11戏剧-1080P,CCTV-11,CCTV11H,CCTV-11戏曲,CCTV-11_戏曲,CCTV_11戏曲,CCTV11戏曲,CCTV-11戏曲HD,CCTV-11高清,CCTV戏曲,CCTV戏曲.备用,中央11台,中央十一台,中央戏曲,中央电视台11,央视-11,戏曲11台"
     },
     {
       "epgid": "CCTV12",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV12.png",
-      "name": "CCTV12,32.CCTV-12社会与法-1080P,CCTV-12,CCTV12H,CCTV12HD,CCTV-12法治,CCTV-12社会,CCTV-12社会与法,CCTV_12社会与法,CCTV12社会与法,CCTV-12社会与法-1080P,CCTV-12社会与法HD,CCTV-12高清,CCTV法制,CCTV法制.备用,中央12台,中央十二套,中央十二高清,中央电视台12,中央社法,央视-12,社会与法12台"
+      "name": "CCTV12,32.CCTV-12社会与法-1080P,CCTV-12,CCTV12H,CCTV12HD,CCTV-12法治,CCTV-12社会,CCTV-12社会与法,CCTV-12_社会与法,,CCTV_12社会与法,CCTV12社会与法,CCTV-12社会与法-1080P,CCTV-12社会与法HD,CCTV-12高清,CCTV法制,CCTV法制.备用,中央12台,中央十二套,中央十二高清,中央电视台12,中央社法,央视-12,社会与法12台"
     },
     {
       "epgid": "CCTV13",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV13.png",
-      "name": "CCTV13,13新闻,20.CCTV-13新闻-1080P,CCTV-13,CCTV13.CN,CCTV13F,CCTV13H,CCTV13HD,CCTV-13新闻,CCTV_13新闻,CCTV13新闻,CCTV-13高清,🆕CCTV13,🆕CCTV新闻,中央13台,中央-13高清,中央新闻,中央新闻高清,中央电视台13,央視新聞,央视-13,央视新闻,新闻13台"
+      "name": "CCTV13,13新闻,20.CCTV-13新闻-1080P,CCTV-13,CCTV13.CN,CCTV13F,CCTV13H,CCTV13HD,CCTV-13新闻,CCTV-13_新闻,CCTV_13新闻,CCTV13新闻,CCTV-13高清,🆕CCTV13,🆕CCTV新闻,中央13台,中央-13高清,中央新闻,中央新闻高清,中央电视台13,央視新聞,央视-13,央视新闻,新闻13台"
     },
     {
       "epgid": "CCTV14",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV14.png",
-      "name": "CCTV14,33.CCTV-14少儿-1080P,CCTV-14,CCTV14H,CCTV14HD,CCTV-14少儿,CCTV_14少儿,CCTV14少儿,CCTV-14少儿HD,CCTV-14高清,CCTV99,CCTV少儿,CCTV-少儿,CCTV少儿.备用,SNAKE_CCTV14,SNAKECCTV14,中央14台,中央少儿,中央电视台14,中央科教高清,央视-14,央视少儿,少儿14台"
+      "name": "CCTV14,33.CCTV-14少儿-1080P,CCTV-14,CCTV14H,CCTV14HD,CCTV-14少儿,CCTV-14_少儿,CCTV_14少儿,CCTV14少儿,CCTV-14少儿HD,CCTV-14高清,CCTV99,CCTV少儿,CCTV-少儿,CCTV少儿.备用,SNAKE_CCTV14,SNAKECCTV14,中央14台,中央少儿,中央电视台14,中央科教高清,央视-14,央视少儿,少儿14台"
     },
     {
       "epgid": "CCTV15",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV15.png",
-      "name": "CCTV15,34.CCTV-15音乐-1080P,C15C15,CCTV-15,CCTV15.CN,CCTV15H,CCTV15HD,CCTV-15音乐,CCTV_15音乐,CCTV15音乐,CCTV-15音乐HD,CCTV-15高清,CCTV音乐,CCTV音乐HD,CCTV音乐.备用,中央15台,中央15套,中央电视台15,央视-15,音乐15台"
+      "name": "CCTV15,34.CCTV-15音乐-1080P,C15C15,CCTV-15,CCTV15.CN,CCTV15H,CCTV15HD,CCTV-15音乐,CCTV-15_音乐,CCTV_15音乐,CCTV15音乐,CCTV-15音乐HD,CCTV-15高清,CCTV音乐,CCTV音乐HD,CCTV音乐.备用,中央15台,中央15套,中央电视台15,央视-15,音乐15台"
     },
     {
       "epgid": "CCTV16",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV16.png",
-      "name": "CCTV16,35.CCTV-16奥林匹克-1080P,CCTV-16,CCTV164K,CCTV-16 4K,CCTV16-4K,CCTV164K（SDR）,CCTV16.CN,CCTV16H,CCTV16HD,CCTV-16奥林匹克,CCTV_16奥林匹克,CCTV16奥林匹克,CCTV16-奥林匹克,CCTV-16奥林匹克4K,CCTV16-奥林匹克4K,CCTV-16奥运4K,CCTV16超高清,CCTV-16高清,CCTV-16 高清,CCTVOHD,CCTV奥林匹克4K,中央16台,中央奥运,中央奥运4K,中央电视台16,中央音乐,央视-16,奥林匹克,奥林匹克16台,奥林匹克4K,奥运频道UHD"
+      "name": "CCTV16,35.CCTV-16奥林匹克-1080P,CCTV-16,CCTV164K,CCTV-16 4K,CCTV16-4K,CCTV164K（SDR）,CCTV16.CN,CCTV16H,CCTV16HD,CCTV-16奥林匹克,CCTV-16_奥林匹克,CCTV_16奥林匹克,CCTV16奥林匹克,CCTV16-奥林匹克,CCTV-16奥林匹克4K,CCTV16-奥林匹克4K,CCTV-16奥运4K,CCTV16超高清,CCTV-16高清,CCTV-16 高清,CCTVOHD,CCTV奥林匹克4K,中央16台,中央奥运,中央奥运4K,中央电视台16,中央音乐,央视-16,奥林匹克,奥林匹克16台,奥林匹克4K,奥运频道UHD"
     },
     {
       "epgid": "CCTV17",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV17.png",
-      "name": "CCTV17,10.CCTV-17农业农村-1080P,CCTV17H,CCTV17HD,CCTV-17农业,CCTV17农业,CCTV-17农业农村,CCTV_17农业农村,CCTV17农业农村,CCTV17-农业农村,CCTV-17高清,中央17台,中央农业,中央十七套,农业农村,农业农村17台,央视-17"
+      "name": "CCTV17,10.CCTV-17农业农村-1080P,CCTV17H,CCTV17HD,CCTV-17农业,CCTV17农业,CCTV-17农业农村,CCTV-17_农业农村,CCTV_17农业农村,CCTV17农业农村,CCTV17-农业农村,CCTV-17高清,中央17台,中央农业,中央十七套,农业农村,农业农村17台,央视-17"
     },
     {
       "epgid": "CCTV2",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV2.png",
-      "name": "CCTV2,21.CCTV-2财经-1080P,CCTV_02,CCTV_02财经,CCTV-2,CCTV2,CCTV21,CCTV22,CCTV2C,CCTV2F,CCTV2H,CCTV2HD,CCTV2经济,CCTV-2财经,CCTV2财经,CCTV-2财经[高清],CCTV-2[高清],CCTV2-高清,CCTV-2高清,CCTV财经,CCTV财经.备用,中央2台,中央二台,中央二套,中央电视台2,中央财经,央视-2,财经,财经2台"
+      "name": "CCTV2,21.CCTV-2财经-1080P,CCTV_02,CCTV_02财经,CCTV-2,CCTV2,CCTV21,CCTV22,CCTV2C,CCTV2F,CCTV2H,CCTV2HD,CCTV2经济,CCTV-2_财经,CCTV-2财经,CCTV2财经,CCTV-2财经[高清],CCTV-2[高清],CCTV2-高清,CCTV-2高清,CCTV财经,CCTV财经.备用,中央2台,中央二台,中央二套,中央电视台2,中央财经,央视-2,财经,财经2台"
     },
     {
       "epgid": "CCTV3",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV3.png",
-      "name": "CCTV3,22.CCTV-3综艺-1080P,CCTV_03综艺,CCTV-3,CCTV3,CCTV34K,CCTV3-4K,CCTV3F,CCTV3H,CCTV3HD,CCTV-3综艺,CCTV3综艺,CCTV-3高清,CCTV综艺,CCTV综艺.备用,中央3台,中央三台,中央三套,中央电视台3,中央综艺,央视-3,综艺3台"
+      "name": "CCTV3,22.CCTV-3综艺-1080P,CCTV_03综艺,CCTV-3,CCTV3,CCTV34K,CCTV3-4K,CCTV3F,CCTV3H,CCTV3HD,CCTV-3_综艺,CCTV-3综艺,CCTV3综艺,CCTV-3高清,CCTV综艺,CCTV综艺.备用,中央3台,中央三台,中央三套,中央电视台3,中央综艺,央视-3,综艺3台"
     },
     {
       "epgid": "CCTV3D",
@@ -488,7 +488,7 @@
     {
       "epgid": "CCTV4",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV4.png",
-      "name": "CCTV4,23.CCTV-4中文国际-1080P,CCTV_04中文国际,CCTV-4,CCTV4F,CCTV4H,CCTV4HD,CCTV-4中文,CCTV-4中文国际,CCTV4中文国际,CCTV-4国际,CCTV4国际,CCTV-4高清,CCTV国际,CCTV-国际,CCTV--国际,CCTV国际.备用,CHNCCTV4.CN,中央4台,中央四台,中央四套,中央国际,中央电视台4,中文国际,中文国际4台,央视-4"
+      "name": "CCTV4,23.CCTV-4中文国际-1080P,CCTV_04中文国际,CCTV-4,CCTV4F,CCTV4H,CCTV4HD,CCTV-4中文,CCTV-4_中文国际,CCTV-4中文国际,CCTV4中文国际,CCTV-4国际,CCTV4国际,CCTV-4高清,CCTV国际,CCTV-国际,CCTV--国际,CCTV国际.备用,CHNCCTV4.CN,中央4台,中央四台,中央四套,中央国际,中央电视台4,中文国际,中文国际4台,央视-4"
     },
     {
       "epgid": "CCTV4AME",
@@ -518,27 +518,27 @@
     {
       "epgid": "CCTV5+",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV5+.png",
-      "name": "CCTV5+,25.CCTV-5+体育赛事-1080P,CCTV18,CCTV-5+,CCTV-5⁺,CCTV5P,CCTV5PLUS,CCTV-5P体育赛事,CCTV-5+体育,CCTV-5体育+,CCTV-5+体育赛事,CCTV-5⁺体育赛事,CCTV5+体育赛事,CCTV5⁺体育赛事,CCTV-5体育赛事,CCTV5+-体育赛事,CCTV-5+体育赛事-1080P,CCTV-5＋体育赛事高清,CCTV5+体育赛视,CCTV5+体育高清,CCTV-5+体赛,CCTV5+赛事,CCTV-5+高清,CCTV-5＋高清,CCTV5+ 高清,CCTV赛事,CCTV赛事.备用,中央赛事,体育赛事,咪咕视频-21,央视-5+"
+      "name": "CCTV5+,25.CCTV-5+体育赛事-1080P,CCTV18,CCTV-5+,CCTV-5⁺,CCTV5P,CCTV5PLUS,CCTV-5P体育赛事,CCTV-5+体育,CCTV-5体育+,CCTV-5+体育赛事,CCTV-5⁺体育赛事,CCTV5+体育赛事,CCTV5⁺体育赛事,CCTV-5体育赛事,CCTV-5+_体育赛事,CCTV5+-体育赛事,CCTV-5+体育赛事-1080P,CCTV-5＋体育赛事高清,CCTV5+体育赛视,CCTV5+体育高清,CCTV-5+体赛,CCTV5+赛事,CCTV-5+高清,CCTV-5＋高清,CCTV5+ 高清,CCTV赛事,CCTV赛事.备用,中央赛事,体育赛事,咪咕视频-21,央视-5+"
     },
     {
       "epgid": "CCTV5",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV5.png",
-      "name": "CCTV5,24.CCTV-5体育-1080P,CCTV_05体育,CCTV-5,CCTV54K,CCTV5-4K,CCTV5H,CCTV-5HD,CCTV5HD,CCTV5HD1,CCTV5HD2,CCTV-5体育,CCTV5体育,CCTV-5体育-1080P,CCTV5＋赛事,CCTV-5 高清,CCTV-5高清,CCTV体育.备用,中央5台,中央五台,中央五套,中央体育,中央电视台5,体育5台,央视-5,央视体育"
+      "name": "CCTV5,24.CCTV-5体育-1080P,CCTV_05体育,CCTV-5,CCTV54K,CCTV5-4K,CCTV5H,CCTV-5HD,CCTV5HD,CCTV5HD1,CCTV5HD2,CCTV-5_体育,CCTV-5体育,CCTV5体育,CCTV-5体育-1080P,CCTV5＋赛事,CCTV-5 高清,CCTV-5高清,CCTV体育.备用,中央5台,中央五台,中央五套,中央体育,中央电视台5,体育5台,央视-5,央视体育"
     },
     {
       "epgid": "CCTV6",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV6.png",
-      "name": "CCTV6,26.CCTV-6电影-1080P,6,CCTV_06电影,CCTV-6,CCTV64K,CCTV6-4K,CCTV6F,CCTV6H,CCTV6HD,CCTV-6电影,CCTV6电影,CCTV-6-高清,CCTV-6高清,CCTV电影,CCTV电影.备用,CCTV-电影「高清」,中央6台,中央六台,中央六套,中央电影,中央电视台6,央视-6,港台,电影6台"
+      "name": "CCTV6,26.CCTV-6电影-1080P,6,CCTV_06电影,CCTV-6,CCTV64K,CCTV6-4K,CCTV6F,CCTV6H,CCTV6HD,CCTV-6_电影,CCTV-6电影,CCTV6电影,CCTV-6-高清,CCTV-6高清,CCTV电影,CCTV电影.备用,CCTV-电影「高清」,中央6台,中央六台,中央六套,中央电影,中央电视台6,央视-6,港台,电影6台"
     },
     {
       "epgid": "CCTV7",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV7.png",
-      "name": "CCTV7,27.CCTV-7国防军事-1080P,CCTV_07国防军事,CCTV-7,CCTV7H,CCTV-7HD,CCTV7HD,CCTV-7军事,CCTV7军事农业,CCTV-7国防,CCTV7-国防军事,CCTV-7国防军事,CCTV7国防军事,CCTV-7高清,CCTV军事,CCTV军事.备用,中央7台,中央七台,中央七套,中央国防,中央电视台7,国防军事7台,央视-7"
+      "name": "CCTV7,27.CCTV-7国防军事-1080P,CCTV_07国防军事,CCTV-7,CCTV7H,CCTV-7HD,CCTV7HD,CCTV-7军事,CCTV7军事农业,CCTV-7国防,CCTV-7_国防军事,CCTV7-国防军事,CCTV-7国防军事,CCTV7国防军事,CCTV-7高清,CCTV军事,CCTV军事.备用,中央7台,中央七台,中央七套,中央国防,中央电视台7,国防军事7台,央视-7"
     },
     {
       "epgid": "CCTV8",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV8.png",
-      "name": "CCTV8,28.CCTV-8电视剧-1080P,CCTV_08电视剧,CCTV-8,CCTV8-4K,CCTV8F,CCTV8H,CCTV8HD,CCTV8-电视剧,CCTV-8电视剧,CCTV8电视剧,CCTV-8高清,CCTV剧集,CCTV剧集.备用,中央8台,中央八台,中央八套,中央电视,中央电视台8,央视-8,电视剧8台"
+      "name": "CCTV8,28.CCTV-8电视剧-1080P,CCTV_08电视剧,CCTV-8,CCTV8-4K,CCTV8F,CCTV8H,CCTV8HD,CCTV-8_电视剧,CCTV8-电视剧,CCTV-8电视剧,CCTV8电视剧,CCTV-8高清,CCTV剧集,CCTV剧集.备用,中央8台,中央八台,中央八套,中央电视,中央电视台8,央视-8,电视剧8台"
     },
     {
       "epgid": "CCTV8K",
@@ -548,7 +548,7 @@
     {
       "epgid": "CCTV9",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV9.png",
-      "name": "CCTV9,29.CCTV-9纪录-1080P,CCTV_09纪录,CCTV-9,CCTV9H,CCTV9HD,CCTV-9纪录,CCTV9纪录,CCTV-9记录,CCTV-9高清,CCTV纪录,CCTV纪录.备用,中央9台,中央九台,中央九套,中央电视台9,中央记录,中央记录高清,央视-9,纪录9台,记录9台"
+      "name": "CCTV9,29.CCTV-9纪录-1080P,CCTV_09纪录,CCTV-9,CCTV9H,CCTV9HD,CCTV-9_纪录,CCTV-9纪录,CCTV9纪录,CCTV-9记录,CCTV-9高清,CCTV纪录,CCTV纪录.备用,中央9台,中央九台,中央九套,中央电视台9,中央记录,中央记录高清,央视-9,纪录9台,记录9台"
     },
     {
       "epgid": "CCTV娱乐",
