@@ -7343,7 +7343,7 @@
     {
       "epgid": "台视",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/台视.png",
-      "name": "台视,008台視,[TW]台视,台視"
+      "name": "台视,008台視,[TW]台视,ZZZZ,台視"
     },
     {
       "epgid": "台视新闻",
@@ -12759,6 +12759,11 @@
       "epgid": "辽宁卫视",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/辽宁卫视.png",
       "name": "辽宁卫视,43.辽宁卫视-1080P,辽宁卫视F,辽宁卫视HD,辽宁卫视高清,辽宁电视台"
+    },
+    {
+      "epgid": "辽宁影视",
+      "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/辽宁影视.png",
+      "name": "辽宁影视,"
     },
     {
       "epgid": "辽宁影视剧",
