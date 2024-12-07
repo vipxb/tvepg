@@ -2216,6 +2216,11 @@
       "name": "HDTV,"
     },
     {
+      "epgid": "HDZHTV",
+      "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/HDZHTV.png",
+      "name": "HDZHTV,"
+    },
+    {
       "epgid": "HEBEI",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/HEBEI.png",
       "name": "HEBEI,"
@@ -2994,6 +2999,11 @@
       "epgid": "JNYETV",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/JNYETV.png",
       "name": "JNYETV,"
+    },
+    {
+      "epgid": "JNYLTV",
+      "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/JNYLTV.png",
+      "name": "JNYLTV,"
     },
     {
       "epgid": "JZTV",
