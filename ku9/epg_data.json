@@ -1021,6 +1021,11 @@
       "name": "CTIVARIETY,"
     },
     {
+      "epgid": "CYZHTV",
+      "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CYZHTV.png",
+      "name": "CYZHTV,"
+    },
+    {
       "epgid": "DAAI",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/DAAI.png",
       "name": "DAAI,"
@@ -3211,6 +3216,11 @@
       "name": "LXTV,"
     },
     {
+      "epgid": "LXZHTV",
+      "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/LXZHTV.png",
+      "name": "LXZHTV,"
+    },
+    {
       "epgid": "MANDIJAPAN",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/MANDIJAPAN.png",
       "name": "MANDIJAPAN,"
@@ -3889,6 +3899,11 @@
       "epgid": "OXYGENTRUECRIME",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/OXYGENTRUECRIME.png",
       "name": "OXYGENTRUECRIME,"
+    },
+    {
+      "epgid": "PDTV",
+      "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/PDTV.png",
+      "name": "PDTV,"
     },
     {
       "epgid": "PETCLUBTV",
