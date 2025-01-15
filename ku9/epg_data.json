@@ -5593,7 +5593,7 @@
     {
       "epgid": "东方财经",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/东方财经.png",
-      "name": "东方财经,"
+      "name": "东方财经,SITV东方财经"
     },
     {
       "epgid": "东方购物",
@@ -5938,7 +5938,7 @@
     {
       "epgid": "乐游",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/乐游.png",
-      "name": "乐游,"
+      "name": "乐游,SITV乐游"
     },
     {
       "epgid": "九江",
@@ -6228,7 +6228,7 @@
     {
       "epgid": "全纪实",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/全纪实.png",
-      "name": "全纪实,SITV-10乐游,SITV乐游,SITV全纪实,上海乐游,乐游,乐游F"
+      "name": "全纪实,SITV-10乐游,SITV全纪实,上海乐游,乐游,乐游F"
     },
     {
       "epgid": "八大优",
@@ -6513,7 +6513,7 @@
     {
       "epgid": "劲爆体育",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/劲爆体育.png",
-      "name": "劲爆体育,SITV-4劲爆体育"
+      "name": "劲爆体育,SITV-4劲爆体育,SITV劲爆体育"
     },
     {
       "epgid": "勉县",
@@ -13053,7 +13053,7 @@
     {
       "epgid": "金色学堂",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/金色学堂.png",
-      "name": "金色学堂,SITV-6金色学堂,金色学堂高清"
+      "name": "金色学堂,SITV-6金色学堂,SITV金色学堂,金色学堂高清"
     },
     {
       "epgid": "金鹰卡通",
