@@ -26,9 +26,9 @@ jobs:
             xml_file="epg/$filename"
             xml_file_tmp="$xml_file.tmp"
             if [[ "$url" == "https://assets.livednow.com/epg.xml" ]]; then
-              curl --retry 5 -x "$PROXY_URL" -o "$xml_file_tmp" "$url"
+              curl --retry 5 -x "$PROXY_URL" -o "$xml_file_tmp" "$url" || true
             else
-              curl --retry 5 -o "$xml_file_tmp" "$url"
+              curl --retry 5 -o "$xml_file_tmp" "$url" || true
             fi
             if grep -iq "404 Not Found" "$xml_file_tmp"; then
               echo "文件包含404错误"
