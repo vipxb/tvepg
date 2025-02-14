@@ -463,7 +463,7 @@
     {
       "epgid": "CCTV16",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CCTV16.png",
-      "name": "CCTV16,35.CCTV-16奥林匹克-1080P,CCTV-16,CCTV164K,CCTV-16 4K,CCTV16-4K,CCTV164K（SDR）,CCTV-164K奥林匹克,CCTV16.CN,CCTV16H,CCTV16HD,CCTV-16奥林匹克,CCTV-16_奥林匹克,CCTV_16奥林匹克,CCTV16奥林匹克,CCTV16-奥林匹克,CCTV-16奥林匹克4K,CCTV16-奥林匹克4K,CCTV-16奥运4K,CCTV16超高清,CCTV-16高清,CCTV-16 高清,CCTVOHD,CCTV奥林匹克4K,中央16台,中央奥运,中央奥运4K,中央电视台16,央视-16,奥林匹克,奥林匹克16台,奥林匹克4K,奥运频道UHD"
+      "name": "CCTV16,35.CCTV-16奥林匹克-1080P,CCTV-16,CCTV164K,CCTV-16 4K,CCTV16-4K,CCTV164K（SDR）,CCTV-164K奥林匹克,CCTV16.CN,CCTV16H,CCTV16HD,CCTV-16奥林匹克,CCTV-16_奥林匹克,CCTV_16奥林匹克,CCTV16奥林匹克,CCTV16-奥林匹克,CCTV-16奥林匹克-4K,CCTV-16奥林匹克4K,CCTV16-奥林匹克4K,CCTV-16奥运4K,CCTV16超高清,CCTV-16高清,CCTV-16 高清,CCTVOHD,CCTV奥林匹克4K,中央16台,中央奥运,中央奥运4K,中央电视台16,央视-16,奥林匹克,奥林匹克16台,奥林匹克4K,奥运频道UHD"
     },
     {
       "epgid": "CCTV17",
@@ -593,7 +593,7 @@
     {
       "epgid": "CETV1",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/CETV1.png",
-      "name": "CETV1,CETV-1教育,CETV-1教育综合"
+      "name": "CETV1,CETV-1教育,CETV-1教育综合,CETV-1综合教育"
     },
     {
       "epgid": "CETV2",
@@ -12218,7 +12218,7 @@
     {
       "epgid": "美亚电影",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/美亚电影.png",
-      "name": "美亚电影,美亚电影-1,美亚电影.(香港)"
+      "name": "美亚电影,美亚电影-1,美亚电影.(香港),美亞電影台"
     },
     {
       "epgid": "美亚高清电影",
