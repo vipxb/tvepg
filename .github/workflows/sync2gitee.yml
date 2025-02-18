@@ -28,6 +28,7 @@ jobs:
       # Step 3: Run filter-repo to optimize storage
       - name: Run filter-repo
         run: |
+          sudo apt install git-filter-repo
           cd gitee-repo
           git filter-repo --path epg/ --invert-paths
           
