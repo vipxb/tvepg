@@ -25,11 +25,11 @@ jobs:
           ssh-keyscan gitee.com >> ~/.ssh/known_hosts
           git clone git@gitee.com:taksssss/tv.git gitee-repo
 
-      # Step 3: Run filter-branch to optimize storage
-      - name: Run git filter-branch
+      # Step 3: Run filter-repo to optimize storage
+      - name: Run filter-repo
         run: |
           cd gitee-repo
-          git filter-branch --tree-filter "rm -rf epg" -- --all
+          git filter-repo --path epg/ --invert-paths
           
       # Step 4: Replace Gitee repo files with GitHub repo files
       - name: Copy files from GitHub to Gitee
