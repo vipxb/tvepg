@@ -49,7 +49,6 @@ jobs:
           if ! git diff --cached --quiet; then
             now_time=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
             git commit -m "同步 GitHub 更新：$now_time"
-            git checkout -b main || echo "main 分支已存在"
             git push --force origin main || echo "推送到 Gitee 失败"
           else
             echo "没有文件可提交"
