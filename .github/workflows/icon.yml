@@ -144,6 +144,7 @@ jobs:
 
       - name: Crop Icons
         run: |
+          sudo apt-get install -y imagemagick
           for file in icon_new/*.png; do
             if [ -f "$file" ]; then
               echo "Processing $file"
