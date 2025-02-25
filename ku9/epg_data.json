@@ -10806,6 +10806,21 @@
       "name": "泰安1,"
     },
     {
+      "epgid": "泰州一套",
+      "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/泰州一套.png",
+      "name": "泰州一套,泰州-1台,泰州新闻综合"
+    },
+    {
+      "epgid": "泰州三套",
+      "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/泰州三套.png",
+      "name": "泰州三套,泰州-3台,泰州影视娱乐"
+    },
+    {
+      "epgid": "泰州二套",
+      "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/泰州二套.png",
+      "name": "泰州二套,"
+    },
+    {
       "epgid": "洛阳文旅",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/洛阳文旅.png",
       "name": "洛阳文旅,"
