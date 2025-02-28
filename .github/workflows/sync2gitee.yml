@@ -36,6 +36,7 @@ jobs:
       - name: Copy files from GitHub to Gitee
         run: |
           rm -rf gitee-repo/*
+          mkdir -p gitee-repo/epg/
           cp -r github-repo/epg/*.gz gitee-repo/epg/
           cp github-repo/README.md gitee-repo/
 
