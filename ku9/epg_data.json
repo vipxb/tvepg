@@ -6591,6 +6591,11 @@
       "name": "北京卫视,38.北京卫视-1080P,BTV北京卫视,🇨🇳北京卫视,北京卫视16M1,北京卫视F,北京卫视HD,北京卫视MAX16M,北京卫视汉化,北京电视台,长兴旅店北京卫视"
     },
     {
+      "epgid": "北京卫视4K",
+      "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/北京卫视4K.png",
+      "name": "北京卫视4K,"
+    },
+    {
       "epgid": "北京卫视NAME版",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/北京卫视NAME版.png",
       "name": "北京卫视NAME版,"
