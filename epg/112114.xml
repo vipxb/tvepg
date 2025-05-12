@@ -13536,6 +13536,9 @@
 	<programme channel="咪咕足球" start="20250513012600 +0800" stop="20250513022600 +0800">
 		<title lang="zh">超级三对三-2024超三联赛</title>
 	</programme>
+	<programme channel="咪咕足球" start="20250513022600 +0800" stop="20250513024100 +0800">
+		<title lang="zh">频道宣传</title>
+	</programme>
 	<channel id="四川卫视">
 		<display-name lang="zh">四川卫视</display-name>
 	</channel>
@@ -40548,6 +40551,9 @@
 	<programme channel="黑莓电影" start="20250513005800 +0800" stop="20250513021900 +0800">
 		<title lang="zh">双生</title>
 	</programme>
+	<programme channel="黑莓电影" start="20250513021900 +0800" stop="20250513035200 +0800">
+		<title lang="zh">洛克海特的遗物</title>
+	</programme>
 	<channel id="黑龙江卫视">
 		<display-name lang="zh">黑龙江卫视</display-name>
 	</channel>
@@ -40905,6 +40911,9 @@
 	<programme channel="newtv军旅剧场" start="20250513012500 +0800" stop="20250513021800 +0800">
 		<title lang="zh">38_谍战深海之惊蛰</title>
 	</programme>
+	<programme channel="newtv军旅剧场" start="20250513021800 +0800" stop="20250513030500 +0800">
+		<title lang="zh">39_谍战深海之惊蛰</title>
+	</programme>
 	<channel id="newtv家庭剧场">
 		<display-name lang="zh">NEWTV家庭剧场</display-name>
 	</channel>
@@ -40920,11 +40929,17 @@
 	<programme channel="newtv热播精选" start="20250513004600 +0800" stop="20250513022000 +0800">
 		<title lang="zh">锤神</title>
 	</programme>
+	<programme channel="newtv热播精选" start="20250513022000 +0800" stop="20250513032400 +0800">
+		<title lang="zh">26_加油！妈妈</title>
+	</programme>
 	<channel id="newtv爱情喜剧">
 		<display-name lang="zh">NEWTV爱情喜剧</display-name>
 	</channel>
 	<programme channel="newtv爱情喜剧" start="20250513002600 +0800" stop="20250513022200 +0800">
 		<title lang="zh">寂静之地</title>
+	</programme>
+	<programme channel="newtv爱情喜剧" start="20250513022200 +0800" stop="20250513033100 +0800">
+		<title lang="zh">05_初婚</title>
 	</programme>
 	<channel id="newtv动作电影">
 		<display-name lang="zh">NEWTV动作电影</display-name>
@@ -40946,6 +40961,9 @@
 	</programme>
 	<programme channel="newtv怡伴健康" start="20250513012900 +0800" stop="20250513023100 +0800">
 		<title lang="zh">09_青山不墨</title>
+	</programme>
+	<programme channel="newtv怡伴健康" start="20250513023100 +0800" stop="20250513031900 +0800">
+		<title lang="zh">致命水域</title>
 	</programme>
 	<channel id="newtv潮妈辣婆">
 		<display-name lang="zh">NEWTV潮妈辣婆</display-name>
