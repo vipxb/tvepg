@@ -17,13 +17,18 @@ jobs:
           git clone --depth 1 https://github.com/${{ github.repository }} github-repo
 
       # Step 2: Clone Gitee repository
-      - name: Clone the Gitee repo
+      - name: Clone the Gitee repo with retry
         run: |
           mkdir -p ~/.ssh
           echo "${{ secrets.GITEE_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan gitee.com >> ~/.ssh/known_hosts
-          git clone git@gitee.com:taksssss/tv.git gitee-repo
+
+          for i in {1..5}; do
+            git clone git@gitee.com:taksssss/tv.git gitee-repo && break
+            echo "第 $i 次克隆失败，重试中..."
+            sleep 5
+          done
 
       # Step 3: Run filter-repo to optimize storage
       - name: Run filter-repo
