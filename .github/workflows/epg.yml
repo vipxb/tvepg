@@ -28,6 +28,8 @@ jobs:
             xml_file_tmp="$xml_file.tmp"
             if [[ "$url" == "https://assets.livednow.com/epg.xml" ]]; then
               curl --retry 5 -x "$PROXY_URL" -o "$xml_file_tmp" "$url" || true
+            elif [[ "$url" == "https://e.erw.cc/all.xml" ]]; then
+              curl --retry 5 --resolve e.erw.cc:443:150.109.5.231 -o "$xml_file_tmp" "$url" || true
             else
               curl --retry 5 -o "$xml_file_tmp" "$url" || true
             fi
