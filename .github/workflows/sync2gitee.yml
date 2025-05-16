@@ -49,15 +49,15 @@ jobs:
       - name: Commit and push changes to Gitee
         run: |
           cd gitee-repo
-          rm -rf .git
-          git init
+          # rm -rf .git
+          # git init
           git config --global user.name "${{ secrets.GITEE_USER_NAME }}"
           git config --global user.email "${{ secrets.GITEE_USER_EMAIL }}"
           git remote add origin git@gitee.com:taksssss/tv.git
           git add .
           if ! git diff --cached --quiet; then
             now_time=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
-            git commit -m "同步 GitHub 更新：$now_time"
+            git commit -m "更新时间：$now_time"
             git checkout -b main || echo "main 分支已存在"
             git push --force origin main || echo "推送到 Gitee 失败"
           else
