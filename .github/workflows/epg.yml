@@ -2,7 +2,7 @@ name: EPG
 
 on:
   schedule:
-    - cron: '0 */4 * * *'
+    - cron: '40 */2 * * *'
   workflow_dispatch:
 
 jobs:
@@ -20,6 +20,8 @@ jobs:
         env:
           PROXY_URL: ${{ secrets.PROXY_URL }}
         run: |
+          sudo sed -i 's|http://.*.ubuntu.com|http://archive.ubuntu.com|g' /etc/apt/sources.list
+          sudo apt-get update
           sudo apt-get install -y libxml2-utils
           mkdir -p epg
           cat files.json | jq -r 'to_entries[] | "\(.key) \(.value)"' | while read -r filename url; do
