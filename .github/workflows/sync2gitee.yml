@@ -33,13 +33,12 @@ jobs:
       # Step 3: Commit and push changes to Gitee
       - name: Commit and push changes to Gitee
         run: |
+          mkdir -p gitee-repo/epg
+          cp github-repo/epg/*.gz gitee-repo/epg/ || echo "没有 .gz 文件可拷贝"
           cd gitee-repo
-          # rm -rf .git
-          # git init
           git config --global user.name "${{ secrets.GITEE_USER_NAME }}"
           git config --global user.email "${{ secrets.GITEE_USER_EMAIL }}"
-          # git remote add origin git@gitee.com:taksssss/tv.git
-          git add ~/epg/*
+          git add epg/*.gz
           if ! git diff --cached --quiet; then
             now_time=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
             git commit -m "更新时间：$now_time"
