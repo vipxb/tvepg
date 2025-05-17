@@ -27,11 +27,12 @@ jobs:
         run: |
           mkdir -p gitee-repo/epg
           cp github-repo/epg/*.gz gitee-repo/epg/ || echo "无.gz文件"
+          cp github-repo/README.md gitee-repo/ || echo "无 README.md 文件"
           cd gitee-repo
           git config user.name "${{ secrets.GITEE_USER_NAME }}"
           git config user.email "${{ secrets.GITEE_USER_EMAIL }}"
-          git add epg/*.gz
-          git diff --cached --quiet || git commit -m "同步更新：$(date '+%Y-%m-%d %H:%M:%S')"
+          git add .
+          git diff --cached --quiet || git commit -m "同步更新：$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')"
           git gc --auto
 
       # Step 4: Push to Gitee and save output to push.log
