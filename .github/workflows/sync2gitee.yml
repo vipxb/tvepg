@@ -32,6 +32,7 @@ jobs:
           git config user.email "${{ secrets.GITEE_USER_EMAIL }}"
           git add epg/*.gz
           git diff --cached --quiet || git commit -m "同步更新：$(date '+%Y-%m-%d %H:%M:%S')"
+          git gc --auto
 
       # Step 4: Push to Gitee and save output to push.log
       - name: Push to Gitee and capture log
