@@ -39,6 +39,7 @@ jobs:
         id: pushlog
         run: |
           cd gitee-repo
+          git checkout main || git checkout -b main
           { git push origin main; } 2>&1 | tee ../push.log
           echo "has_quota_issue=$(grep -Ei 'quota|exceed' ../push.log >/dev/null && echo true || echo false)" >> $GITHUB_OUTPUT
 
