@@ -30,22 +30,7 @@ jobs:
             sleep 5
           done
 
-      # Step 3: Run filter-repo to optimize storage
-      - name: Run filter-repo
-        run: |
-          sudo apt install git-filter-repo
-          cd gitee-repo
-          git filter-repo --path epg/ --invert-paths
-          
-      # Step 4: Replace Gitee repo files with GitHub repo files
-      - name: Copy files from GitHub to Gitee
-        run: |
-          rm -rf gitee-repo/*
-          mkdir -p gitee-repo/epg/
-          cp -r github-repo/epg/*.gz gitee-repo/epg/
-          cp github-repo/README.md gitee-repo/
-
-      # Step 5: Commit and push changes to Gitee
+      # Step 3: Commit and push changes to Gitee
       - name: Commit and push changes to Gitee
         run: |
           cd gitee-repo
@@ -53,13 +38,13 @@ jobs:
           # git init
           git config --global user.name "${{ secrets.GITEE_USER_NAME }}"
           git config --global user.email "${{ secrets.GITEE_USER_EMAIL }}"
-          git remote add origin git@gitee.com:taksssss/tv.git
-          git add .
+          # git remote add origin git@gitee.com:taksssss/tv.git
+          git add ~/epg/*
           if ! git diff --cached --quiet; then
             now_time=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
             git commit -m "更新时间：$now_time"
             git checkout -b main || echo "main 分支已存在"
-            git push --force origin main || echo "推送到 Gitee 失败"
+            git push origin main || echo "推送到 Gitee 失败"
           else
             echo "没有文件可提交"
           fi
